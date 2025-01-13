@@ -1,0 +1,69 @@
+# Archivos de Go
+*.exe
+*.log
+*.out
+
+vendor/
+*.mod
+*.sum
+
+# Go-related files
+/bin/
+/pkg/
+/vendor/
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Build artifacts
+*.a
+*.o
+
+# Dependency directories
+/go/
+.gomod
+.gosum
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.tmp
+
+# IDE and editor-related files
+.idea/
+.vscode/
+*.log
+*.iml
+*.bak
+
+# Protobuf generated files
+src/pb/*.pb.go
+src/pb/*.pb.gw.go
+
+# Docker
+docker-compose.override.yml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.pid
+*.seed
+
+# Environment variables
+.env
+.env.*
+
+# Node.js (for frontend, if used)
+node_modules/
+dist/
+
+# Ignore any other Go modcache folders
+modcache/
